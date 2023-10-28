@@ -15,23 +15,6 @@
 - 🚧 Work in Progress: Usarlo para indicar que el commit contiene trabajo en progreso que no está listo para ser implementado.
 
 
-### Estructura de Carpetas
-
-> src
-> ├──── app.ts
-> ├──── .env.dev.local
-> ├── config
-> ├── controllers
-> ├── dao
-> ├── dto
-> ├── middleware
-> ├── model
-> ├── public
-> ├── repository
-> ├── router
-> ├── services
-
-
 [Arquitectura del Servidor]: <https://github.com/arceprogramando/arquitectura-del-servidor>
 
 [Javascript]:<https://github.com/arceprogramando/arquitectura-del-servidor>
