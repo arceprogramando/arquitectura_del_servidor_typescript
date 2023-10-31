@@ -14,6 +14,23 @@
 - 🚀 Refactor: Marca commits que mejoren el rendimiento de la aplicación o cambios funcionales.
 - 🚧 Work in Progress: Usarlo para indicar que el commit contiene trabajo en progreso que no está listo para ser implementado.
 
+### Directory Layout
+
+    .
+    ├── build                   # Output directory with transpiled JavaScript files
+    ├── src                     # Source files (index.ts)
+        ├── config              # Config files 
+        ├── controllers         # Application controllers handling HTTP requests(Request ,Response)
+        ├── dao                 # Abstraction that isolates the database logic
+        ├── databases           # Database configuration and connections
+        ├── dto                 # Data Transfer Objects for structuring data(CLEAN REQUEST)
+        ├── middleware          # Intermediaries that ensure HTTP requests before processing.
+        ├── model               # Data model definitions
+        ├── public              # Static Recourse
+        ├── repository          # Space to work with different Databases
+        ├── router              # Application routes and middleware usage
+        └── services            # Application services containing business logic
+    └── README.md               # Project documentation (this file)
 
 [Arquitectura del Servidor]: <https://github.com/arceprogramando/arquitectura-del-servidor>
 
