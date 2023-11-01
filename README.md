@@ -10,7 +10,7 @@
 - ✨ New Features: Usarlo cuando agregue una nueva característica o funcionalidad a la aplicación.
 - ⛔ Critical Changes: usarlo cuando se  que contengan cambios críticos que puedan afectar gravemente el funcionamiento de la aplicación.
 - 🐛 Error Fix: Para commits que solucionen problemas o errores en el código existente.
-- 🧼 Cleanup: Utiliza este emoji cuando realices tareas delimpieza de código, sin cambios funcionales.
+- 🧼 Cleanup: Utiliza este emoji cuando realices tareas de limpieza de código, sin cambios funcionales.
 - 🚀 Refactor: Marca commits que mejoren el rendimiento de la aplicación o cambios funcionales.
 - 🚧 Work in Progress: Usarlo para indicar que el commit contiene trabajo en progreso que no está listo para ser implementado.
 
@@ -18,7 +18,7 @@
 
     .
     ├── build                   # Output directory with transpiled JavaScript files
-    ├── src                     # Source files (index.ts)
+    ├── src                     # Source files (app.ts)
         ├── config              # Config files 
         ├── controllers         # Application controllers handling HTTP requests(Request ,Response)
         ├── dao                 # Abstraction that isolates the database logic

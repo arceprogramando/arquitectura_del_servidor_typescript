@@ -2,12 +2,12 @@
   "name": "arquitectura_del_servidor_typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "tsc": "tsc",
-    "start:dev": "ts-node-dev --env-file .env.dev.local src/index.ts",
+    "start:dev": "ts-node-dev --env-file .env.dev.local src/app.ts",
     "lint": "ts-standard",
-    "start": "node build/index.js",
+    "start": "node build/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

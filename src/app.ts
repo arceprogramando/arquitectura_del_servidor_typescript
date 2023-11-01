@@ -1,7 +1,8 @@
 import express from 'express'
+import cors from 'cors'
 import displayRoutes from 'express-routemap'
 import mongoDBConnection from './databases/mongoconnection'
-
+import router from './router'
 const app = express()
 
 const PORT = process.env.PORT
@@ -10,6 +11,7 @@ const NODE_ENV = process.env.NODE_ENV
 const PERSISTENCE = process.env.PERSISTENCE
 
 app.use(express.json())
+app.use(cors())
 
 app.listen(PORT, () => {
   mongoDBConnection()
@@ -24,3 +26,5 @@ app.listen(PORT, () => {
       console.error('Error al conectar a la base de datos:', error)
     })
 })
+
+app.use(router)

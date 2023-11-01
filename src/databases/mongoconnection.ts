@@ -6,7 +6,6 @@ const configConnection = {
   url: `${DB_CNN}${DB_NAME}` ?? `mongodb://${DB_HOST}:${DB_PORT}/${DB_NAME}`
 }
 
-console.log(configConnection.url)
 const mongoDBConnection = async (): Promise<Connection> => {
   return await mongoose.connect(configConnection.url)
     .then((connect) => connect.connection)
